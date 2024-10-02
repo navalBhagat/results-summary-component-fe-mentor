@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/navalBhagat/results-summary-component-fe-mentor)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://results-summary-component-fe-mentor.vercel.app/)
 
 ## Author
 
