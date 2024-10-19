@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

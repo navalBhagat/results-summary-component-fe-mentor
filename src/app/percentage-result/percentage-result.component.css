@@ -1,0 +1,63 @@
+.percentage {
+    width: 21rem;
+    height: 30rem;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  @media (max-width:700px) {
+    .percentage {
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+
+  .percentage-header {
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 0.6rem;
+    margin-top: 0.5rem;
+  }
+  
+  .percentage-circle { 
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .percentage-value { 
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+  }
+  
+  .percentage-total {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+  }
+  
+  .percentage-description {
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: -0.5rem; 
+  }
+  
+  .percentage-feedback {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    max-width: 14rem;
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+  }

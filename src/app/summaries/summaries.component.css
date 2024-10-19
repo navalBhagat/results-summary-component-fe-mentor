@@ -1,0 +1,45 @@
+.summaries {
+    width: 21rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+.summaries-header {
+    font-weight: 700;
+    font-size: x-large;
+    margin-left: -10rem; 
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.continue-button {
+    width: 17rem;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    height: 3.5rem;
+    border-radius: 4rem;
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 1rem;
+}
+
+.continue-button:hover {
+    background-color: white;
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width:700px) {
+    .summaries {
+        width: 100%;
+    }
+
+    .summaries-header { 
+        margin-top: 2rem;
+    }
+}

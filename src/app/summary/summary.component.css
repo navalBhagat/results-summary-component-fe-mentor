@@ -1,0 +1,34 @@
+app-summary {
+    width: 21rem;
+}
+.summary-pill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 17rem;
+    border-radius: 0.5rem;
+}
+
+.pill-start { 
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.pill-end { 
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.pill-value {
+    color: black;
+    font-size: medium;
+    margin-right: -0.2rem;
+}
+
+.pill-value-total {
+    color: gray;
+}
